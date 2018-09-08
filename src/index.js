@@ -9,7 +9,7 @@ const tick = () => {
 
 const start = () => {
     grid = gridManager.createGrid(60, gol.populateCell(50));
-    setInterval(tick, 250);
+    setInterval(tick, 200);
 }
 
 start();
